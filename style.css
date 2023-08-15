@@ -1,0 +1,117 @@
+html{
+    height:100%;
+    background:linear-gradient(#123 30%, #667);
+    overflow:hidden
+}
+.snow,.snow:before,.snow:after{
+    position:absolute;
+    top:-600px;
+    left:0;
+    bottom:0;
+    right:0;
+    background-image:radial-gradient(6px 6px at 40px 232px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 306px 171px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 119px 34px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 310px 467px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 88px 179px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 288px 504px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 194px 481px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 306px 564px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 438px 540px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 300px 535px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 175px 289px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 310px 26px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 148px 36px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 386px 526px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 45px 551px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 402px 330px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 100px 242px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 196px 547px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 79px 461px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 168px 45px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 451px 51px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 39px 334px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 173px 591px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 321px 216px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 160px 334px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 169px 582px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 370px 580px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 20px 373px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 531px 140px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 12px 180px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 59px 333px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 449px 120px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 364px 460px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 492px 19px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 531px 228px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 470px 517px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 306px 476px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 547px 517px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 201px 223px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 475px 532px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 451px 243px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 357px 403px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 104px 308px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 311px 502px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 160px 352px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 290px 532px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 7px 179px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 293px 146px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 542px 35px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 271px 103px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 260px 29px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 114px 12px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 409px 83px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 206px 66px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 377px 232px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 218px 51px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 170px 397px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 582px 316px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 583px 505px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 105px 539px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 354px 511px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 13px 227px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(5px 5px at 543px 26px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(3px 3px at 129px 568px, rgba(255, 255, 255, 0.8) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 289px 96px, rgba(255, 255, 255, 0.9) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 377px 436px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 288px 216px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 357px 463px, rgba(255, 255, 255, 0.7) 50%, rgba(0, 0, 0, 0)),radial-gradient(6px 6px at 458px 179px, rgba(255, 255, 255, 0.6) 50%, rgba(0, 0, 0, 0)),radial-gradient(4px 4px at 116px 225px, rgb(255, 255, 255) 50%, rgba(0, 0, 0, 0));
+    background-size:600px 600px;
+    animation:snow 10s linear infinite;
+    content:"";
+    z-index: -999;
+}
+
+.snow:after{
+    margin-left:-200px;
+    opacity:.4;
+    animation-duration:6s;
+    animation-direction:reverse;
+    filter:blur(3px)
+}
+.snow:before{
+    animation-duration:9s;
+    animation-direction:reverse;
+    margin-left:-300px;
+    opacity:.65;
+    filter:blur(1.5px)
+}
+@keyframes snow{
+    to{
+        transform:translateY(600px)
+    }
+}
+
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  z-index:999;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+  z-index:999;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  z-index:999;
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+    z-index:999;
+    background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    z-index:999;
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+.title {
+    font-size: 5vh;
+    margin-top: 10px;
+    z-index:999;
+    color: cadetblue;
+}
+
+.profilepic {
+    margin-top: 200px;
+    z-index:999;
+}
+.container {
+    margin-top:200px;
+    z-index:999;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/font.ttf);
+    font-weight: bold;
+  }
+
+  div {
+    font-family: myFirstFont;
+  }
